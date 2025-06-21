@@ -1,0 +1,47 @@
+{
+    "number": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "string": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five"
+    ],
+    "boolean": [
+        true,
+        false
+    ],
+    "null": [
+        null
+    ],
+    "object": [
+        {
+            "key1": "value1",
+            "key2": "value2"
+        },
+        {
+            "key1": "value3",
+            "key2": "value4"
+        }
+    ],
+    "array": [
+        [1, 2, 3],
+        ["a", "b", "c"],
+        [true, false, null]
+    ],
+    "mixed": [
+        1,
+        "two",
+        true,
+        null,
+        {
+            "key": "value"
+        }
+    ]
+}
