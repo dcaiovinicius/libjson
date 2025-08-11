@@ -4,13 +4,7 @@
 #include <sstream>
 #include <string>
 
-class JsonParserTest : public ::testing::Test {
-protected:
-    void SetUp() override {
-    }
-};
-
-TEST_F(JsonParserTest, ParseSimpleJson) {
+TEST(JsonParserTest, ParseSimpleJson) {
     const char* input = "{\"name\": \"Alice\", \"age\": 30}";
 
     auto output = Json::parse(input);
